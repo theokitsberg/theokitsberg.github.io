@@ -46,10 +46,9 @@ body {
 
 .profile-photo {
     width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    object-fit: cover;
-    object-position: center 30%;
+    height: auto;
+    max-height: 400px;
+    object-fit: contain;
 }
 
 h1 {
