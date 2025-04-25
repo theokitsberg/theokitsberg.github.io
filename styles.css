@@ -31,7 +31,7 @@ body {
     display: flex;
     gap: 3rem;
     align-items: flex-start;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .text-content {
