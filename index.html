@@ -52,23 +52,9 @@
                 
                 <h3>Personal Projects</h3>
                 <div class="project">
-                    <h4><a href="Lawtomate.pdf" target="_blank" rel="noopener noreferrer">Lawtomate: Towards a monolithic, non-iterative prompt for Cambridge Law exams</a></h4>
-                    <p>
-                        Showing (contrary to popular perception in Cambridge) that students can use LLMs to produce high-quality answers to Cambridge law exams with minimal effort or legal understanding. Moved from API automation to a web UI process and (soon) to a single, monolithic prompt, pushing the technical barrier to entry to the floor. Want to expose equity issues in open-book, online exams.
-                    </p>
-                </div>
-
-                <div class="project">
-                    <h4><a href="Midas Models.pdf" target="_blank" rel="noopener noreferrer">Some Ongoing, Incrementally Updated Thoughts on LLMs in Mental Health</a></h4>
-                    <p>
-                        My attempt to unravel what we should think and feel about uses of LLMs in behavioural care contexts, like therapy or crisis care.
-                    </p>
-                </div>
-
-                <div class="project">
                     <h4><a href="fourthwallrpo.pdf" target="_blank" rel="noopener noreferrer">Teaching Confidence Calibration Via Recursive Prompt Optimisation (RPO)</a></h4>
                     <p>
-                        Built a Recursive Prompt Optimisation (RPO) pipeline that teaches a Claude Sonnet 3.7 to calibrate its stated confidence accurately. At each iteration GPT-4o auto-generates hard, multi-turn “red-team” conversations, scores the model purely on calibration quality, and Claude uses that feedback to rewrite its own system-prompt; the loop then repeats, with live graphs tracking training- and hold-out success so we can watch the prompt’s performance climb. Because this method evolves only the prompt (no weight-tuning), it’s fast, fully interpretable, and already shows clear gains from ~8 %.
+                        Built a Recursive Prompt Optimisation (RPO) pipeline that teaches Claude Sonnet 3.7 to calibrate its stated confidence accurately. At each iteration GPT-4o auto-generates hard, multi-turn “red-team” conversations, scores the model purely on calibration quality, and Claude uses that feedback to rewrite its own system-prompt; the loop then repeats, with live graphs tracking training- and hold-out success so we can watch the prompt’s performance climb. Because this method evolves only the prompt (no weight-tuning), it’s fast, fully interpretable, and already shows clear gains from ~8 %.
                     </p>
                 </div>
 
@@ -83,6 +69,20 @@
                     <h4><a href="listeningllama.pdf" target="_blank" rel="noopener noreferrer">Listening Llama</a></h4>
                     <p>
                         Fine-tuned Llama 7B to reliably respond to emotionally charged disclosures in the manner of a helpline volunteer. Generated 1047 synthetic datapoints through review and improvement of batched GPT generations then scaled that dataset to 10,000 via  a haiku API creative rephrasing script. Cleaned the data then fine-tuned llama with instruction-tuning, DPO-tuning and Constitutional AI.
+                    </p>
+                </div>
+                
+                <div class="project">
+                    <h4><a href="Lawtomate.pdf" target="_blank" rel="noopener noreferrer">Lawtomate: Towards a monolithic, non-iterative prompt for Cambridge Law exams</a></h4>
+                    <p>
+                        Showing (contrary to popular perception in Cambridge) that students can use LLMs to produce high-quality answers to Cambridge law exams with minimal effort or legal understanding. Moved from API automation to a web UI process and (soon) to a single, monolithic prompt, pushing the technical barrier to entry to the floor. Want to expose equity issues in open-book, online exams.
+                    </p>
+                </div>
+
+                <div class="project">
+                    <h4><a href="Midas Models.pdf" target="_blank" rel="noopener noreferrer">Some Ongoing, Incrementally Updated Thoughts on LLMs in Mental Health</a></h4>
+                    <p>
+                        My attempt to unravel what we should think and feel about uses of LLMs in behavioural care contexts, like therapy or crisis care.
                     </p>
                 </div>
 
