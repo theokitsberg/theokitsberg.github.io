@@ -50,7 +50,7 @@
             <section id="projects">
                 <h2>Projects</h2>
                 
-                <h3>Present Personal Projects</h3>
+                <h3>Personal Projects</h3>
                 <div class="project">
                     <h4><a href="Lawtomate.pdf" target="_blank" rel="noopener noreferrer">Lawtomate: Towards a monolithic, non-iterative prompt for Cambridge Law exams</a></h4>
                     <p>
@@ -65,11 +65,10 @@
                     </p>
                 </div>
 
-                <h3>Past Personal Projects</h3>
                 <div class="project">
-                    <h4><a href="fourthwallrpo.pdf" target="_blank" rel="noopener noreferrer">Breaking the Fourth Wall With Recursive Prompt Optimisation (RPO)</a></h4>
+                    <h4><a href="fourthwallrpo.pdf" target="_blank" rel="noopener noreferrer">Teaching Confidence Calibration Via Recursive Prompt Optimisation (RPO)</a></h4>
                     <p>
-                        Explored whether prompting alone can elicit moments where a language model reinterprets a user's input and gently surfaces their likely true intent—what I call "breaking the fourth wall." Using a novel recursive prompt optimization (RPO) approach, the goal was to counteract anti-confrontational tendencies likely introduced through RLHF—where models prioritize politeness and passivity over honesty—and to recover suppressed capacities for theory of mind, intent modeling, and alignment behavior grounded in discernment rather than deference.
+                        Built a Recursive Prompt Optimisation (RPO) pipeline that teaches a Claude Sonnet 3.7 to calibrate its stated confidence accurately. At each iteration GPT-4o auto-generates hard, multi-turn “red-team” conversations, scores the model purely on calibration quality, and Claude uses that feedback to rewrite its own system-prompt; the loop then repeats, with live graphs tracking training- and hold-out success so we can watch the prompt’s performance climb. Because this method evolves only the prompt (no weight-tuning), it’s fast, fully interpretable, and already shows clear gains from ~8 %.
                     </p>
                 </div>
 
