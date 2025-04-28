@@ -52,12 +52,9 @@
                 
                 <h3>Personal Projects</h3>
                 <div class="project">
-                    <h4><a href="fourthwallrpo.pdf" target="_blank" rel="noopener noreferrer">Improving Confidence Calibration Via Recursive Prompt Optimisation (RPO)</a></h4>
+                    <h4><a href="fourthwallrpo.pdf" target="_blank" rel="noopener noreferrer">dAIvd: simulating my PhD friend's approach to philosophy with Recursive Prompt Optimisation (RPO)</a></h4>
                     <p>
-                        Built a Recursive Prompt Optimisation (RPO) pipeline that improves Claude Sonnet 3.7's success at accurately calibrating its stated confidence. At each iteration GPT-4o auto-generates hard, multi-turn “red-team” conversations, scores the model purely on calibration quality, and Claude uses that feedback to rewrite its own system-prompt; the loop then repeats, with live graphs tracking training- and hold-out success so we can watch the prompt’s performance climb. Because this method evolves only the prompt (no weight-tuning), it’s fast, fully interpretable, and already shows clear gains from ~8 %.
-                    </p>
-                </div>
-
+                        Built a Recursive Prompt Optimisation (RPO) pipeline that improves Claude Sonnet 3.7's ability to roleplay as my friend David. At each iteration Claude attempts to answer a philosophical question, and this is checked by a Claude discriminator agent against David's old work. If the discriminator can correctly determine the imposted it explains why and Claude uses that feedback to rewrite its own system-prompt; the loop then repeats until the discriminator fails three times in a row. <strong>Note: there are possibly some interesting applications of RPO to outer-alignment...</strong>
                 <div class="project">
                     <h4><a href="moralpsychstability.pdf" target="_blank" rel="noopener noreferrer">Measuring the Stability of LLM Moral Psychology</a></h4>
                     <p>
